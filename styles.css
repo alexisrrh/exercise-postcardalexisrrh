@@ -1,0 +1,28 @@
+css body {
+	background: black;
+}
+* {
+	border: 0; dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {display: flex; }
+.postcard-header img {width: 50px; 
+height: 50px:}
+.postcard-header h1 {width: 100px;
+margin: none; }
+.postcard-body {
+	display: flex;
+}
+.body-left, .body-right{ padding: 10px;}
+input { border:none; border-bottom: grey 1px solid; }
+.p {font-size: 12px;}
+.postcard-footer{ text-aling: center}
+
+button { background: black;
+padding: 5px;}
